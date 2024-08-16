@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SaaS Simulator: A Founder's Journey</h1>
+        </header>
+        <main>
+            <div id="game-board">
+                <div id="cards-section">
+                    <h2>Cards</h2>
+                    <div id="drawn-card"></div>
+                    <button id="draw-card-btn">Draw Card</button>
+                </div>
+                <div id="player-stats">
+                    <h2>Company Stats</h2>
+                    <div id="financials">
+                        <p>Revenue: <span id="revenue">$0</span></p>
+                        <p>Customers: <span id="customers">0</span></p>
+                        <p>Churn Rate: <span id="churn-rate">0%</span></p>
+                    </div>
+                    <div id="decisions">
+                        <h3>Make a Decision</h3>
+                        <button id="marketing-btn">Invest in Marketing</button>
+                        <button id="technology-btn">Invest in Technology</button>
+                        <button id="pricing-btn">Set Pricing</button>
+                        <button id="partnership-btn">Form a Partnership</button>
+                    </div>
+                </div>
+            </div>
+            <aside id="rules">
+                <h2>Game Rules</h2>
+                <p>Welcome to SaaS Simulator! Your goal is to maximize revenue and customer growth over a 3-year period.</p>
+                <ul>
+                    <li>Draw cards to simulate business events.</li>
+                    <li>Make strategic decisions about pricing, marketing, technology, and partnerships.</li>
+                    <li>Manage your costs, churn rate, and customer acquisition.</li>
+                    <li>The game ends after 36 turns (3 years).</li>
+                    <li>The winner is the company with the highest total revenue and customer base.</li>
+                </ul>
+            </aside>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
