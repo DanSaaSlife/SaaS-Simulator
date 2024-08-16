@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Market Boom",
+        "type": "customers",
+        "amount": 100,
+        "description": "A sudden market boom has increased demand. You gain 100 new customers."
+    },
+    {
+        "name": "Feature Success",
+        "type": "revenue",
+        "amount": 10000,
+        "description": "A new feature release is a hit! You earn an additional $10,000 in revenue."
+    }
+]
