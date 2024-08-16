@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Economic Downturn",
+        "type": "revenue",
+        "amount": -5000,
+        "description": "An economic downturn reduces your revenue by $5000."
+    },
+    {
+        "name": "Security Breach",
+        "type": "churn",
+        "amount": 10,
+        "description": "A security breach increases your churn rate by 10%."
+    }
+]
