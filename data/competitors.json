@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Competitor A",
+        "strategy": "Low Pricing",
+        "description": "A competitor reduces prices, forcing you to consider your own pricing strategy."
+    },
+    {
+        "name": "Competitor B",
+        "strategy": "Feature Expansion",
+        "description": "A competitor releases new features, making it harder for you to retain customers."
+    }
+]
